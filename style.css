@@ -1,9 +1,13 @@
 .main{
-    padding-left: 200px;
-    padding-right: 200px;
+    float: right;
+    width: 90%;
+    box-sizing: border-box;
+    border-left: solid 1px lightskyblue;
+    padding-left: 20px;
+    background-position: center center;
 }
 .main p{
-    font-size: 18px;
+    font-size: 17px;
 }
 .headline h1{
     font-family: 'Times New Roman', Times, serif;
@@ -19,15 +23,19 @@
     margin-top: -20px;
     margin-bottom: -10px;
     color: lightgrey;
+    display: flex;
 }
 .headline p {
     font-size: 16px;
 }
 .content{
-    background-color: rgb(240, 234, 234);
-    border: solid black 1px;
+    background-color: rgb(238, 238, 238);
+    border: solid #999 1px;
     line-height: 1.6em;
     width: 200px;
+}
+.content p{
+    font-weight: 600;
 }
 .content a{
     text-decoration: none;
@@ -51,4 +59,59 @@
 }
 .underline h2{
     font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: -5px;
+}
+.sideInfo{
+    float: right;
+    height: 850px;
+    width: 175px;
+    border: solid 1px #999;
+    margin-left: 15px;
+    margin-right: 3px;
+    background-color: rgb(238, 238, 238);
+}
+.leftSidebar {
+    width: 10%;
+    float: left;
+}
+.picture {
+    border: 1px solid rgb(185, 185, 185);
+    background-color: rgb(240, 240, 240);
+    padding: 3px;
+    margin-top: -25px;
+    margin-bottom: 40px;
+    width: 220px;
+}
+
+.picture p {
+    font-size: 16px;
+    margin: 0px 0px;
+}
+#descText{
+    float: left;
+    padding-right: 25px;
+}
+#descTextAndPic{
+    display: flex;
+}
+#distText {
+    
+    margin-left: 15px;
+    
+}
+.picture3 {
+    border: 1px solid rgb(37, 28, 28);
+    background-color: rgb(240, 240, 240);
+    padding: 3px;
+    margin-top: 35px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    width: 220px;
+    float: left;
+}
+
+.picture3 p {
+    font-size: 16px;
+    margin: 0px 0px;
 }
