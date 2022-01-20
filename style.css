@@ -1,117 +1,165 @@
-.main{
-    float: right;
-    width: 90%;
-    box-sizing: border-box;
-    border-left: solid 1px lightskyblue;
-    padding-left: 20px;
-    background-position: center center;
+.main {
+  float: right;
+  width: 90%;
+  box-sizing: border-box;
+  border-left: solid 1px lightskyblue;
+  padding-left: 20px;
+  background-position: center center;
 }
-.main p{
-    font-size: 17px;
+.main p {
+  font-size: 17px;
 }
-.headline h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
+.headline h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
 }
-.headline h2{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
-    font-size: 1.5em;
+.headline h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 1.5em;
 }
 .headline hr {
-    position: relative;
-    margin-top: -20px;
-    margin-bottom: -10px;
-    color: lightgrey;
-    display: flex;
+  position: relative;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  color: lightgrey;
+  display: flex;
 }
 .headline p {
-    font-size: 16px;
+  font-size: 16px;
 }
-.content{
-    background-color: rgb(238, 238, 238);
-    border: solid #999 1px;
-    line-height: 1.6em;
-    width: 200px;
+.content {
+  background-color: rgb(238, 238, 238);
+  border: solid #999 1px;
+  line-height: 1.6em;
+  width: 200px;
 }
-.content p{
-    font-weight: 600;
+.content p {
+  font-weight: 600;
 }
-.content a{
-    text-decoration: none;
+.content a {
+  text-decoration: none;
 }
-.content a:hover{
-    text-decoration: underline;
+.content a:hover {
+  text-decoration: underline;
 }
-.content ol{
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-    padding-left: 20px;
+.content ol {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  padding-left: 20px;
 }
 .numContent {
-    color: black;
+  color: black;
 }
-.content p{
-    padding: 0px;
-    margin: 0px;
-    margin-left: 50px;
+.content p {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 50px;
 }
-.underline h2{
-    font-size: 20px;
-    padding-top: 10px;
-    margin-bottom: -5px;
+.underline h2 {
+  font-size: 20px;
+  padding-top: 10px;
+  margin-bottom: -5px;
 }
-.sideInfo{
-    float: right;
-    height: 850px;
-    width: 175px;
-    border: solid 1px #999;
-    margin-left: 15px;
-    margin-right: 3px;
-    background-color: rgb(238, 238, 238);
+.sideInfo {
+  float: right;
+  width: 220px;
+  border: solid 1px #999;
+  margin-left: 15px;
+  margin-right: 3px;
+  margin-bottom: 25px;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  padding: 0px 5px;
+}
+.sideInfo table {
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+.sideInfo ul {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0%;
+  margin-left: 25px;
+  padding: 0%;
+  padding: 10px 0px;
+  line-height: 1.5em;
+}
+
+#biName {
+  margin: 0%;
+  font-weight: 600;
+  margin-top: 5px;
+}
+#biNameBy {
+  margin: 0%;
+  font-size: 14px;
+  margin-top: 3px;
+}
+#sidebarRangeText p{
+  margin: 0%;
+  margin-top: 3px;
+  font-size: 14px;
+}
+#sidebarRangeText p:last-child{
+  margin-bottom: 10px;
+}
+.SideInfoTitleText {
+  background-color: rgb(253, 240, 184);
+  margin: 5px 0px;
+  font-weight: 575;
+}
+#textForSideInfoPicture2 {
+  background-color: inherit;  
+  margin: auto;
+  font-weight: 400;
+  font-size: 16px;
 }
 .leftSidebar {
-    width: 10%;
-    float: left;
+  width: 10%;
+  float: left;
 }
 .picture {
-    border: 1px solid rgb(185, 185, 185);
-    background-color: rgb(240, 240, 240);
-    padding: 3px;
-    margin-top: -25px;
-    margin-bottom: 40px;
-    width: 220px;
+  border: 1px solid rgb(185, 185, 185);
+  background-color: rgb(240, 240, 240);
+  padding: 3px;
+  margin-top: -25px;
+  margin-bottom: 40px;
+  width: 220px;
+  height: fit-content;
 }
 
 .picture p {
-    font-size: 16px;
-    margin: 0px 0px;
+  font-size: 16px;
+  margin: 0%;
 }
-#descText{
-    float: left;
-    padding-right: 25px;
+#descText {
+  float: left;
+  padding-right: 25px;
 }
-#descTextAndPic{
-    display: flex;
+#descTextAndPic {
+  display: flex;
 }
 #distText {
-    
-    margin-left: 15px;
-    
+  margin-left: 15px;
 }
 .picture3 {
-    border: 1px solid rgb(37, 28, 28);
-    background-color: rgb(240, 240, 240);
-    padding: 3px;
-    margin-top: 35px;
-    margin-right: 15px;
-    margin-bottom: 30px;
-    width: 220px;
-    float: left;
+  border: 1px solid #999;
+  background-color: rgb(240, 240, 240);
+  padding: 3px;
+  margin-top: 35px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  width: 220px;
+  float: left;
 }
 
 .picture3 p {
-    font-size: 16px;
-    margin: 0px 0px;
+  font-size: 16px;
+  margin: 0%;
 }
